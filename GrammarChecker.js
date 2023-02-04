@@ -5,3 +5,20 @@ let storyWords = story.split(" ");
 let unnecessaryWord = "literally";
 let misspelledWord = "beautifull";
 let badWord = "freaking";
+let count = 0
+
+storyWords.forEach((word) => {
+  count++;
+   });
+// console.log(storyWords);
+console.log(storyWords.join(' '))
+
+
+/*
+// ############### Exercise Purpose #################
+Grammar Checker
+
+In this project, you’ll use what you know about iterating over arrays to gather
+information and improve the quality of a paragraph.
+
+*/
