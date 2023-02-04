@@ -10,6 +10,9 @@ let count = 0
 storyWords.forEach((word) => {
   count++;
    });
+
+storyWords.filter(storyWords => storyWords.length)
+
 // console.log(storyWords);
 console.log(storyWords.join(' '))
 
